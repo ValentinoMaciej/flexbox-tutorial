@@ -9,7 +9,7 @@ body{
 
 .wrapper{
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -17,12 +17,15 @@ body{
 display: flex;
 background: #ffff;
 flex-wrap: wrap;
+flex-flow: column;
+justify-content: flex-start;
+height: 800px;
 
 }
 
 .box {
 height: 100px;
-flex-basis: 200px;
+flex: 0 0 100px;
 
 
 }
@@ -33,7 +36,7 @@ background: red;
 }
 
 .two{
-    background: blue;
+background: blue;
  
 }
 
