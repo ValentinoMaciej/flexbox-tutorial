@@ -20,14 +20,14 @@ display: flex;
 
 .box {
 height: 100px;
-min-width: 100px;
-flex-grow: 1;
+min-width: 320px;
+
 
 }
 
 .one{
 background: red;
-
+flex-shrink: 3;
 }
 
 .two{
